@@ -178,7 +178,9 @@
                 <div class="text-6xl animate-bounce">🔥</div>
                 <div class="space-y-2">
                     <h1 class="text-3xl font-black italic">阅后即焚解密</h1>
-                    <p class="text-slate-400 text-sm">解密后数据将立即删除</p>                    <p class="text-slate-400 text-sm">解密后数据将立即删除</p> placeholder="请输入 6 位以上解密密码" class="w-full bg-slate-950/50 border border-slate-800 p-5 rounded-2xl outline-none focus:ring-2 ring-orange-500/50 text-center font-mono">
+                    <p class="text-slate-400 text-sm">解密后数据将立即从服务器物理擦除</p>
+                </div>
+                <input id="sharePw" type="password" placeholder="请输入 6 位以上解密密码" class="w-full bg-slate-950/50 border border-slate-800 p-5 rounded-2xl outline-none focus:ring-2 ring-orange-500/50 text-center font-mono">
                 <button id="unlockBtn" onclick="doUnlockShare()" class="w-full bg-gradient-to-r from-orange-600 to-red-600 text-white py-5 rounded-2xl font-black uppercase tracking-widest shadow-xl hover:scale-[1.02] transition">解密并销毁</button>
                 <div id="shareResult" class="mt-8 text-left p-6 bg-slate-950/50 rounded-2xl hidden whitespace-pre-wrap text-sm leading-relaxed border border-orange-500/20 ring-1 ring-orange-500/10 shadow-inner italic text-slate-300"></div>
                 <div class="pt-8 border-t border-white/5">
